@@ -23,7 +23,7 @@ import java.util.List;
 
 public class CustomArrayAdapter extends ArrayAdapter {
 
-    Context context;
+
     private ArrayList objects;
     final static String LOCATION_SEPARATOR = " of ";
     public CustomArrayAdapter(@NonNull Context context, @LayoutRes int resource, @NonNull List objects) {
