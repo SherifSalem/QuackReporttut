@@ -122,6 +122,12 @@ import java.util.List;
          * Query the USGS dataset and return a list of {@link Earthquackes} objects.
          */
         public static List<Earthquackes> fetchEarthquakeData(String requestUrl) {
+
+//            try {
+//                Thread.sleep(2000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
             // Create URL object
             URL url = createUrl(requestUrl);
 
